@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+.bv-card { @apply rounded-xl overflow-hidden shadow-bv bg-bv_cream border border-bv_gold/30; }
+.bv-btn  { @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium bg-bv_green text-white hover:bg-emerald-900 transition; }
